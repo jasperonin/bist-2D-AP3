@@ -48,18 +48,6 @@ const generateSeatNumber = () => {
         alert("Grid is full!");
     }
 });
-
-  const generateGrid = () => {};
-
-  const handleAssign = () => {
-    const randomSeat = document.getElementById("random-seat");
-    let seats = [];
-
-    for (let index = 0; index < 10; index++) {
-      seats.push(index);
-    }
-
-  };
 };
 
 generateSeatNumber();
